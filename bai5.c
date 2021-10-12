@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "hamchia.h"
 void tru(int a,int b)
 {
     int Hieu = a-b;
@@ -14,6 +15,7 @@ void main()
     int a = 100, b = 1321, c;
     c = tong(a, b);
     tru(a,b);
+    phepchia(a,b);
 }
 // 1. t sài git ở đây
 // 2. trỏ tới đâu
